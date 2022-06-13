@@ -1,6 +1,8 @@
 # Purpose
-This code is to calculate the trajectory of a projectile through the air assuming Newtonian resistance.
+This code is to calculate the trajectory of a projectile through a fluid like air assuming Newtonian resistance.
+This just means that the drag or air resistance on the projectile is due to the momentum of the air impacting on it rather than the viscosity or stickiness of the air slowing it down. In most cases this is a good assumption but would not apply for a golf ball sinking through syrup. 
 It generates Excel graphs of 6 different specified parameters such as trajectory, velocity against time or angle of elevation. 
+Sample Excel chart:-
 ![Sample](https://user-images.githubusercontent.com/107402485/173411195-b0fc2301-5ba9-4c0d-ae15-452db96618b3.PNG)
 
 ## Assumptions
@@ -8,6 +10,7 @@ It generates Excel graphs of 6 different specified parameters such as trajectory
 2. No spin on the projectile.
 3. No cross wind.
 4. No viscous flow effects.
+5. Subsonic air flow ( air resitance increases dramatically once past 330 m/s as it hits the sound barrier).
 
 ## Method
 Calculation uses Runge-Kutta 4th order numerical integratation using specified time delta.
