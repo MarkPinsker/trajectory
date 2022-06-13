@@ -47,13 +47,13 @@ The macroChartV1 code can be loaded into an Excel spreadsheet by the following p
 1. Click on cell E6 in worksheet "initial conditions" and select it from the dropdown.
 
 ## Change air temperature (in column E for example)
-1. Click on cell E7 in worksheet "initial conditions" and select it from the dropdown. Do not chnage it directly to a value not in the dropdown otherwise air density wil not be calculated and the calculation will not work!
+1. Click on cell E7 in worksheet "initial conditions" and select the temperature in Celsius from the dropdown. Do not change it directly to a value not in the dropdown otherwise air density will not be calculated and the calculation will not work!
 
 ## Change angle of projection (in column E for example)
-1. Click on cell E10 in worksheet "initial conditions" . This value is metres.
+1. Click on cell E10 in worksheet "initial conditions" . This value is in degrees.
 
 ## Change initial height (in column E for example)
-1. Click on cell E12 in worksheet "initial conditions" . This value is in degrees from the horizontal.
+1. Click on cell E12 in worksheet "initial conditions" . This value is in metres.
 
 ## Change angle of projection (in column E for example)
 1. Click on cell E10 in worksheet "initial conditions" . This value is in degrees from the horizontal.
