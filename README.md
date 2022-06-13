@@ -13,7 +13,7 @@ Sample Excel chart:-
 5. Subsonic air flow ( air resitance increases dramatically once past 330 m/s as it hits the sound barrier).
 
 ## Method
-Calculation uses Runge-Kutta 4th order numerical integratation using specified time delta.
+Calculation uses [Runge-Kutta](https://en.wikipedia.org/wiki/Runge%E2%80%93Kutta_methods) 4th order numerical integratation using specified time delta.
 
 # To download the code
 The macroChartV1 code can be loaded into an Excel spreadsheet by the following procedure:-
