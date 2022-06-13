@@ -44,7 +44,9 @@ The macroChartV1 code can be loaded into an Excel spreadsheet by the following p
 1. Click on cell D4 in worksheet "initial conditions" . This will override the value calculated for the projectile in cell D1.
 
 ## Change location
-1. Click on cell D6 in worksheet "initial conditions" and select it from the dropdown. Notice that this will change the value of gravitational acceleration in cell D9.
+1. Click on cell D6 in worksheet "initial conditions" and select it from the dropdown. 
+Notice that this will change the value of gravitational acceleration in cell D9.  
+2. If the location is not in the dropdown then add a row to the "location" worksheet. More values are available in https://en.wikipedia.org/wiki/Gravity_of_Earth .
 
 ## Change air temperature
 1. Click on cell D7 in worksheet "initial conditions" and select the temperature in Celsius from the dropdown. Do not change it directly to a value not in the dropdown otherwise air density will not be calculated and the calculation will not work!
