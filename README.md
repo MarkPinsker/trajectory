@@ -1,7 +1,7 @@
 # Purpose
 This code is to calculate the trajectory of a projectile through the air assuming Newtonian resistance.
 It generates Excel graphs of 6 different specified parameters such as trajectory, velocity against time or angle of elevation. 
-![plot](./sample.png)
+![plot](sample.png)
 
 ## Assumptions
 1. Level ground.
