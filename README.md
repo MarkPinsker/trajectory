@@ -1,3 +1,16 @@
+# Purpose
+This code is to calculate the trajectory of a projectile through the air assuming Newtonian resistance.
+It generates Excel graphs of 6 different specified parameters such as trajectory, velocity against time or angle of elevation. 
+
+## Assumptions
+1. Level ground.
+2. No spin on the projectile.
+3. No cross wind.
+4. No viscous flow effects.
+
+## Method
+Calculation uses Runge-Kutta 4th order numerical integratation using specified time delta.
+
 # To download the code
 The macroChartV1 code can be loaded into an Excel spreadsheet by the following procedure:-
 
