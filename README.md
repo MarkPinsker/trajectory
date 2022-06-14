@@ -21,6 +21,10 @@ The macroChartV1 code can be loaded into an Excel spreadsheet by the following p
 1. Download using github desktop to local folder.  
 2. Right click on Import-BasintoExcel.ps1  
 3. Run with PowerShell.  
+3.1 If Powershell doesn't run then it may be becasue your account hasn't got access to run Powershell scripts.  
+Start up PowerShell manually and enter the command  
+set-executionpolicy -scope currentuser -executionpolicy unrestricted   
+
 4. If Excel doesn't run then change settings in Excel Trust centre:-  
 4.1 File->Options->trust centre->Trust centre settings  
 4.2 Macro settings  
