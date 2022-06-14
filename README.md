@@ -18,11 +18,15 @@ Calculation uses [Runge-Kutta](https://en.wikipedia.org/wiki/Runge%E2%80%93Kutta
 # To download the code
 The macroChartV1 code can be loaded into an Excel spreadsheet by the following procedure:-
 
-1. Open Excel spreadsheet.
-2. Press Alt F11 to open a VBA window.
-3. Insert -> module
-4. Copy and paste in macroChartV1 code from github.
-5. Close VBA window.
+1. Download using github desktop to local folder.
+2. Right click on Import-BasintoExcel.ps1 
+3. Run with powershell.
+4. If excel doesn't run then chane settings in Excel Trust centre:-
+4.1 File->options->trust centre->Trust centre settings
+4.2 Macro settings 
+	Enable VBA macros 
+	Trust access to VBA project object model
+	
 
 # To run the code
 1. From Excel press Alt -> F8 to get a list of macros. 
