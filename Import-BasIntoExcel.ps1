@@ -11,4 +11,6 @@ foreach ($macro in $macros) {
     $macroname= $macro.FullName;
     write-host "add macro $macroname";
 }
+write-host "Run macro mcrCalculate";
+$excel.run('mcrCalculate');
 sleep 10
